@@ -26,7 +26,6 @@ class TextDocumentContentProvider {
         this.isLoading = false;
         return this.documentationProvider.loading(this.query);
       }
-      console.log(this.docsUrl)
       if (!this.docsUrl) return Promise.resolve(this.content);
       return this.documentationProvider.setUrl(this.docsUrl).getDoc();
     } catch (err) {
