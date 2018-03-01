@@ -13,6 +13,10 @@ class ESDoc {
     }
     return (line.replace(ESDoc.TOKEN, "") || "").trim();
   }
+
+  hide() {
+
+  }
   updateWordCount() {
     // Get the current text editor
     let editor = window.activeTextEditor;
@@ -31,17 +35,21 @@ class ESDoc {
     const position = editor.selection.active;
     const textLine = doc.lineAt(position.line);
     const query = this.parseLine(textLine.text);
+    if (query === 'hide') {
+      this.hide();
+    }
     if (!query) return;
     if (!query.endsWith(ESDoc.END_TOKEN)) return;
     if (!ESDoc.IS_DRAWER_OPEN) {
       ESDoc.IS_DRAWER_OPEN = true;
       this.drawer = this.openDrawer();
     }
-    const url = getUrlFromToken(query.replace(ESDoc.END_TOKEN, ''), this.urlToDocs);
+    const finalQuery = query.replace(ESDoc.END_TOKEN, '');
+    const url = getUrlFromToken(finalQuery, this.urlToDocs);
     if (!url) {
       return;
     }
-    this.provider.update(ESDoc.PREVIEW_URI, url);
+    this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: url, query: finalQuery });
   }
 
   openDrawer() {
@@ -53,7 +61,8 @@ class ESDoc {
       "ESDoc",
     )
       .then(
-      success => { },
+      success => {
+      },
       reason => {
         vscode.window.showErrorMessage(reason);
       }

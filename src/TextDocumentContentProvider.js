@@ -5,15 +5,28 @@ class TextDocumentContentProvider {
   constructor() {
     this._onDidChange = new vscode.EventEmitter();
     this.content = '';
-    this.docsUrl = null;
+    this.docsUrl = undefined;
     this.documentationProvider = new DocumentationProvider();
+    this.isLoading = false;
   }
-  update(uri, docsUrl) {
-    this.docsUrl = docsUrl;
+
+  update({ uri, docsUrl = null, query = null, isLoading = false }) {
+    if (this.docsUrl === docsUrl) return;
+    this.isLoading = true;
+    this.query = query;
     this._onDidChange.fire(uri);
+    this.docsUrl = docsUrl;
+    setTimeout(() => {
+      this._onDidChange.fire(uri);
+    }, 1000);
   }
   provideTextDocumentContent(uri, docsUrl) {
     try {
+      if (this.isLoading) {
+        this.isLoading = false;
+        return this.documentationProvider.loading(this.query);
+      }
+      console.log(this.docsUrl)
       if (!this.docsUrl) return Promise.resolve(this.content);
       return this.documentationProvider.setUrl(this.docsUrl).getDoc();
     } catch (err) {
