@@ -14,10 +14,7 @@ class ESDoc {
     return (line.replace(ESDoc.TOKEN, "") || "").trim();
   }
 
-  hide() {
-
-  }
-  updateWordCount() {
+  update() {
     // Get the current text editor
     let editor = window.activeTextEditor;
     if (!editor) {
@@ -35,9 +32,6 @@ class ESDoc {
     const position = editor.selection.active;
     const textLine = doc.lineAt(position.line);
     const query = this.parseLine(textLine.text);
-    if (query === 'hide') {
-      this.hide();
-    }
     if (!query) return;
     if (!query.endsWith(ESDoc.END_TOKEN)) return;
     if (!ESDoc.IS_DRAWER_OPEN) {
@@ -47,9 +41,10 @@ class ESDoc {
     const finalQuery = query.replace(ESDoc.END_TOKEN, '');
     const url = getUrlFromToken(finalQuery, this.urlToDocs);
     if (!url) {
+      this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: false, isLoading: false, query: finalQuery });
       return;
     }
-    this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: url, query: finalQuery });
+    this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: url, isLoading: true, query: finalQuery });
   }
 
   openDrawer() {

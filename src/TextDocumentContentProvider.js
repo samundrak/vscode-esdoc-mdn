@@ -10,9 +10,9 @@ class TextDocumentContentProvider {
     this.isLoading = false;
   }
 
-  update({ uri, docsUrl = null, query = null, isLoading = false }) {
+  update({ uri, docsUrl = null, query = null, isLoading = true }) {
     if (this.docsUrl === docsUrl) return;
-    this.isLoading = true;
+    this.isLoading = isLoading;
     this.query = query;
     this._onDidChange.fire(uri);
     this.docsUrl = docsUrl;
@@ -26,7 +26,7 @@ class TextDocumentContentProvider {
         this.isLoading = false;
         return this.documentationProvider.loading(this.query);
       }
-      if (!this.docsUrl) return Promise.resolve(this.content);
+      if (!this.docsUrl) return `No documentation found about "${this.query}"`;
       return this.documentationProvider.setUrl(this.docsUrl).getDoc();
     } catch (err) {
       vscode.window.showErrorMessage(err.message);
