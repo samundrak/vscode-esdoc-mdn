@@ -7,8 +7,12 @@
   "engines": {
     "vscode": "^1.19.0"
   },
-  "categories": ["Other"],
-  "activationEvents": ["onLanguage:javascript"],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript"
+  ],
   "main": "./extension",
   "contributes": {
     "commands": [
@@ -28,5 +32,9 @@
     "eslint": "^4.11.0",
     "@types/node": "^7.0.43",
     "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsdom": "^11.6.2"
   }
 }

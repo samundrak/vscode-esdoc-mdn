@@ -1,9 +1,11 @@
 const vscode = require("vscode");
 const { window, TextLine, workspace, Uri } = vscode;
+const { getUrlFromToken } = require('./helper');
 
 class ESDoc {
-  constructor(provider) {
+  constructor(provider, urlToDocs) {
     this.provider = provider;
+    this.urlToDocs = urlToDocs;
   }
   parseLine(line) {
     if (!line.match(ESDoc.TOKEN)) {
@@ -28,34 +30,37 @@ class ESDoc {
     }
     const position = editor.selection.active;
     const textLine = doc.lineAt(position.line);
-    const token = this.parseLine(textLine.text);
-    if (!token) return;
-    if (!token.endsWith("..")) return;
+    const query = this.parseLine(textLine.text);
+    if (!query) return;
+    if (!query.endsWith(ESDoc.END_TOKEN)) return;
     if (!ESDoc.IS_DRAWER_OPEN) {
       ESDoc.IS_DRAWER_OPEN = true;
-      this.openDrawer();
+      this.drawer = this.openDrawer();
     }
-    this.provider.update(ESDoc.PREVIEW_URI);
+    const url = getUrlFromToken(query.replace(ESDoc.END_TOKEN, ''), this.urlToDocs);
+    if (!url) {
+      return;
+    }
+    this.provider.update(ESDoc.PREVIEW_URI, url);
   }
 
   openDrawer() {
     return vscode.commands
       .executeCommand(
-        "vscode.previewHtml",
-        ESDoc.PREVIEW_URI,
-        vscode.ViewColumn.Two,
-        "ESDoc",
-        { pinned: false }
-      )
+      "vscode.previewHtml",
+      ESDoc.PREVIEW_URI,
+      vscode.ViewColumn.Two,
+      "ESDoc",
+    )
       .then(
-        success => {},
-        reason => {
-          vscode.window.showErrorMessage(reason);
-        }
+      success => { },
+      reason => {
+        vscode.window.showErrorMessage(reason);
+      }
       );
   }
 }
-
+ESDoc.END_TOKEN = ';';
 ESDoc.TOKEN = /\/\/\s?mdn/;
 ESDoc.IS_DRAWER_OPEN = false;
 ESDoc.PREVIEW_URI = vscode.Uri.parse("esdoc://samundrak/esdoc");

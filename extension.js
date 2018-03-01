@@ -4,6 +4,7 @@ const vscode = require("vscode");
 const ESDoc = require("./src/ESDoc");
 const ESDocController = require("./src/ESDocController");
 const TextDocumentContentProvider = require("./src/TextDocumentContentProvider");
+const urlToDocs = require('./src/links.json');
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -17,7 +18,7 @@ function activate(context) {
     "esdoc",
     provider
   );
-  let esdoc = new ESDoc(provider);
+  let esdoc = new ESDoc(provider, urlToDocs);
   let controller = new ESDocController(esdoc);
 
   // Add to a list of disposables which are disposed when this extension is deactivated.
@@ -27,5 +28,5 @@ function activate(context) {
 exports.activate = activate;
 
 // this method is called when your extension is deactivated
-function deactivate() {}
+function deactivate() { }
 exports.deactivate = deactivate;
