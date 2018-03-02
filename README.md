@@ -26,6 +26,7 @@ don't miss to add semicolon at the end.
 
 ### Example syntax
 `//mdn document` Will load documentation about `document`
+
 `//mdn object.keys;` Will load documentation about `object.keys`
 
 `//mdn object.values;` Will load documentation about `object.values`
