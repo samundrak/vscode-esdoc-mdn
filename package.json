@@ -1,7 +1,7 @@
 {
-  "name": "esdoc",
-  "displayName": "esdoc",
-  "description": "",
+  "name": "esdoc-mdn",
+  "displayName": "ESDoc MDN",
+  "description": "If you are coding and in middle you forget syntax or description about any javascript api then just write ` //mdn [api] `. for example `//mdn object` or if you want to see documentation about `assign` method of `Object` then just type `//mdn object.assign` and don't forget to end it with `;`(semicolon).",
   "version": "0.0.1",
   "publisher": "samundrak",
   "engines": {
@@ -36,5 +36,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "jsdom": "^11.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samundrak/vscode-esdoc-mdn.git"
   }
 }

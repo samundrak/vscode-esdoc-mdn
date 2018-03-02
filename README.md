@@ -1,4 +1,5 @@
 # Awesome plugin for VsCode :sunglasses: [Beta]
+    Waiting VScode Webview API to give it final look
 
 ## Quickly see docs from mdn on your vscode
 
