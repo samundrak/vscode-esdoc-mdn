@@ -3,7 +3,8 @@
 
 ## Quickly see docs from mdn on your vscode
 
-![Quick Demo](demo.gif)
+![Quick Demo](demo.gif)  
+<br/>
 If you are coding and in middle you forget syntax or description about any javascript api then just
 write ` //mdn [api] `. for example `//mdn object` or if you want to see documentation about `assign` method of `Object` then just type `//mdn object.assign` and don't forget to end it with `;`(semicolon).
 
@@ -12,7 +13,7 @@ Load documentation of top level or global objects by
         
 
     //mdn [object]
-    example: `//mdn array;` 
+    example: //mdn array;
 
 Load documentation of method of global or top level object by
 
