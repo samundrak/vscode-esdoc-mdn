@@ -1,8 +1,11 @@
 const axios = require('axios');
 const jsdom = require('jsdom');
 
-const content = 'https://developer.mozilla.org//en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from'
 class DocumentationProvider {
+
+    constructor(port) {
+        this.httpPort = port;
+    }
 
     setUrl(url) {
         this.url = url;
@@ -27,6 +30,13 @@ class DocumentationProvider {
         });
     }
 
+    socketScript() {
+        return `<script src="http://127.0.0.1:${this.httpPort}/socket.io/socket.io.js" type="text/javascript"></script>
+                <script>
+                var socket = io('http://127.0.0.1:${this.httpPort}');
+                </script>
+        `;
+    }
     createStyleSheet(document) {
         const styleSheets = Array.from((document.querySelectorAll('link[rel="stylesheet"]') || []));
         return styleSheets.map(style => `
@@ -38,6 +48,7 @@ class DocumentationProvider {
         <html>
             <head>
              ${head}
+             ${this.socketScript()}
             </head>
             <body onload="onClose">
                 <div style="background-color:white;color:black;padding:10px;max-width: 100%;
@@ -64,6 +75,7 @@ class DocumentationProvider {
             margin: -100px 0 0 -150px;
           }
           </style>
+          ${this.socketScript()}          
         </head>
             <body>
             <div class="lds-css ng-scope center">

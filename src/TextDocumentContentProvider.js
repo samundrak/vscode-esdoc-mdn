@@ -2,11 +2,11 @@ const vscode = require("vscode");
 const DocumentationProvider = require('./DocumentationProvider');
 
 class TextDocumentContentProvider {
-  constructor() {
+  constructor(port) {
     this._onDidChange = new vscode.EventEmitter();
     this.content = '';
     this.docsUrl = undefined;
-    this.documentationProvider = new DocumentationProvider();
+    this.documentationProvider = new DocumentationProvider(port);
     this.isLoading = false;
   }
 
