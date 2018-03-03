@@ -2,7 +2,7 @@
   "name": "esdoc-mdn",
   "displayName": "ESDoc MDN",
   "description": "If you are coding and in middle you forget syntax or description about any javascript api then just write //mdn [object].[method] .",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "samundrak",
   "engines": {
     "vscode": "^1.19.0"
@@ -37,7 +37,7 @@
     "axios": "^0.18.0",
     "get-port": "^3.2.0",
     "jsdom": "^11.6.2",
-    "socket-io": "^1.0.0"
+    "socket.io": "^2.0.4"
   },
   "repository": {
     "type": "git",
