@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "esdoc",
   "displayName": "esdoc",
   "description": "",
@@ -40,3 +41,48 @@
     "socket.io": "^2.0.4"
   }
 }
+=======
+    "name": "esdoc-mdn",
+    "displayName": "ESDoc MDN",
+    "description": "If you are coding and in middle you forget syntax or description about any javascript api then just write ` //mdn [api] `. for example `//mdn object` or if you want to see documentation about `assign` method of `Object` then just type `//mdn object.assign` and don't forget to end it with `;`(semicolon).",
+    "version": "0.1.0",
+    "publisher": "samundrak",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.esdoc",
+                "title": "Hello World"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "jsdom": "^11.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samundrak/vscode-esdoc-mdn.git"
+    }
+}
+>>>>>>> 74b22015c5b1ef0d1f4256f8ca0e1fff82886589
