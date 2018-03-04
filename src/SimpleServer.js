@@ -11,7 +11,6 @@ module.exports = (ESDoc) => new Promise((resolve, reject) => {
     getPort().then((port) => {
         app.listen(port);
         io.on('connection', function (socket) {
-            ESDoc.IS_DRAWER_OPEN = true;
             socket.on('disconnect', function () {
                 ESDoc.IS_DRAWER_OPEN = false;
             });
