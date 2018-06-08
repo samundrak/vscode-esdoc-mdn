@@ -1,35 +1,32 @@
-# Awesome plugin for VsCode :sunglasses: [Beta]
+# Awesome plugin for Visual Studio Code :sunglasses: [Beta]
 
-## Quickly see docs from mdn on your vscode
+## Quickly see docs from MDN in VS Code
 
-![Quick Demo](demo.gif)  
+![Quick Demo](demo.gif) 
 <br/>
-If you are coding and in middle you forget syntax or description about any javascript api then just
-write ` //mdn [api] `. for example `//mdn object` or if you want to see documentation about `assign` method of `Object` then just type `//mdn object.assign` and don't forget to end it with `;`(semicolon).
+This extension lets you quickly bring up helpful MDN documentation in the editor by typing `//mdn [api];`. For example, to see  documentation for `Object`, type `//mdn Object;`, and to view a method or property, such as `Object.assign`, type `//mdn Object.assign;`. Don't forget the semicolon!
 
 ## Usage
-Load documentation of top level or global objects by
+Load documentation of top level or global objects:
         
+    //mdn [api];
+    example: //mdn Array;
 
-    //mdn [object]
-    example: //mdn array;
+Load documentation of a method or property:
 
-Load documentation of method of global or top level object by
+    //mdn [api].[method];
+    example: //mdn Array.from;
+    
+`[api]` and `[method]` are case-insensitive, so `//mdn array.from;` is also fine.
 
-    //mdn [object].[method]
-    example: //mdn array.from;
+### Is the semicolon necessary?
+Yes! A search won't happen without it.
 
-### Semicolon?
-Semicolon is necessary at end of line to trigger search so 
-don't miss to add semicolon at the end.
-
-### Example syntax
-`//mdn document` Will load documentation about `document`
-
-`//mdn object.keys;` Will load documentation about `object.keys`
-
-`//mdn object.values;` Will load documentation about `object.values`
-
-`//mdn array.slice;` Will load documentation about `array.slice`
-
-`//mdn array.splice;` Will load documentation about `array.splice`
+## Examples
+```
+//mdn document;
+//mdn Object.keys;
+//mdn object.values;
+//mdn Array.slice;
+//mdn array.splice;
+```
