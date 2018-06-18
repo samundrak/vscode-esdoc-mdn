@@ -2,53 +2,41 @@ const axios = require('axios');
 const jsdom = require('jsdom');
 
 class DocumentationProvider {
+  fetchResource(url) {
+    return axios.get(url);
+  }
 
-    constructor(port) {
-        this.httpPort = port;
-    }
+  parseDocumentation(rawHtml) {
+    return new jsdom.JSDOM(rawHtml);
+  }
 
-    setUrl(url) {
-        this.url = url;
-        return this;
-    }
+  async getDoc(url) {
+    const rawHtml = await this.fetchResource(url);
+    const jsdom = await this.parseDocumentation(rawHtml.data);
+    return this.fullHtml({
+      head: this.createStyleSheet(jsdom.window.document),
+      body: jsdom.window.document.getElementById('wiki-content').innerHTML,
+    });
+  }
 
-    async fetchResource() {
-        const data = await axios.get(this.url);
-        return data;
-    }
-
-    async parseDocumentation(rawHtml) {
-        return new jsdom.JSDOM(rawHtml);
-    }
-
-    async getDoc() {
-        const rawHtml = await this.fetchResource();
-        const jsdom = await this.parseDocumentation(rawHtml.data);
-        return this.fullHtml({
-            head: this.createStyleSheet(jsdom.window.document),
-            body: jsdom.window.document.getElementById('wiki-content').innerHTML
-        });
-    }
-
-    socketScript() {
-        return `<script src="http://127.0.0.1:${this.httpPort}/socket.io/socket.io.js" type="text/javascript"></script>
-                <script>
-                var socket = io('http://127.0.0.1:${this.httpPort}');
-                </script>
-        `;
-    }
-    createStyleSheet(document) {
-        const styleSheets = Array.from((document.querySelectorAll('link[rel="stylesheet"]') || []));
-        return styleSheets.map(style => `
+  createStyleSheet(document) {
+    const styleSheets = Array.from(
+      document.querySelectorAll('link[rel="stylesheet"]') || [],
+    );
+    return styleSheets
+      .map(
+        style => `
         <link href="${style.href}" rel="stylesheet" type="text/css" />
-        `).join(',').replace(/,/g, '');
-    }
-    fullHtml({ head = '', body = 'No Content' }) {
-        return `
+        `,
+      )
+      .join(',')
+      .replace(/,/g, '');
+  }
+  fullHtml({ head = '', body = 'No Content' }) {
+    return `
         <html>
             <head>
              ${head}
-             ${this.socketScript()}
             </head>
             <body onload="onClose">
                 <div style="background-color:white;color:black;padding:10px;max-width: 100%;
@@ -58,10 +46,10 @@ class DocumentationProvider {
             </body>
         </html>
         `;
-    }
+  }
 
-    loading(doc) {
-        return `
+  loading(doc) {
+    return `
         <html>
         <head>
         <style>
@@ -75,7 +63,6 @@ class DocumentationProvider {
             margin: -100px 0 0 -150px;
           }
           </style>
-          ${this.socketScript()}          
         </head>
             <body>
             <div class="lds-css ng-scope center">
@@ -134,8 +121,8 @@ class DocumentationProvider {
               </div>
             </body>
         </html>
-       `
-    }
+       `;
+  }
 }
 
 module.exports = DocumentationProvider;
