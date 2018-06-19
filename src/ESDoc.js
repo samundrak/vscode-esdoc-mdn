@@ -1,17 +1,19 @@
-const vscode = require("vscode");
-const { window, TextLine, workspace, Uri } = vscode;
+const vscode = require('vscode');
+const { window } = vscode;
 const { getUrlFromToken } = require('./helper');
 
 class ESDoc {
-  constructor(provider, urlToDocs) {
-    this.provider = provider;
+  constructor(view, urlToDocs) {
+    this.view = view;
     this.urlToDocs = urlToDocs;
+    this.lastQuery = null;
+    this.view.on('dispose', this.handleViewDispose.bind(this));
   }
   parseLine(line) {
     if (!line.match(ESDoc.TOKEN)) {
       return;
     }
-    return (line.replace(ESDoc.TOKEN, "") || "").trim();
+    return (line.replace(ESDoc.TOKEN, '') || '').trim();
   }
 
   update() {
@@ -20,10 +22,8 @@ class ESDoc {
     if (!editor) {
       return;
     }
-
     let doc = editor.document;
-
-    if (doc.languageId !== "javascript") {
+    if (doc.languageId !== 'javascript') {
       return;
     }
     if (!editor.selection.isEmpty) {
@@ -33,39 +33,29 @@ class ESDoc {
     const textLine = doc.lineAt(position.line);
     const query = this.parseLine(textLine.text);
     if (!query) return;
-    if (!query.endsWith(ESDoc.END_TOKEN)) return;
-    if (!ESDoc.IS_DRAWER_OPEN) {
-      ESDoc.IS_DRAWER_OPEN = true;
-      this.drawer = this.openDrawer();
-    }
-    const finalQuery = query.replace(ESDoc.END_TOKEN, '');
-    const url = getUrlFromToken(finalQuery, this.urlToDocs);
-    if (!url) {
-      this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: false, isLoading: false, query: finalQuery });
+    if (!query.endsWith(ESDoc.END_TOKEN)) {
+      this.view.dispose();
+      window.showTextDocument(doc);
       return;
     }
-    this.provider.update({ uri: ESDoc.PREVIEW_URI, docsUrl: url, isLoading: true, query: finalQuery });
+    if (query === this.lastQuery) return;
+    this.lastQuery = query;
+    const finalQuery = query.replace(ESDoc.END_TOKEN, '');
+    const url = getUrlFromToken(finalQuery, this.urlToDocs);
+    this.view.show({
+      docsUrl: url,
+      isLoading: !!url,
+      query: finalQuery,
+    });
+    window.showTextDocument(doc);
   }
 
-  openDrawer() {
-    return vscode.commands
-      .executeCommand(
-      "vscode.previewHtml",
-      ESDoc.PREVIEW_URI,
-      vscode.ViewColumn.Two,
-      "ESDoc",
-    )
-      .then(
-      success => {
-      },
-      reason => {
-        vscode.window.showErrorMessage(reason);
-      }
-      );
+  handleViewDispose() {
+    this.lastQuery = null;
   }
 }
 ESDoc.END_TOKEN = ';';
 ESDoc.TOKEN = /\/\/\s?mdn/;
 ESDoc.IS_DRAWER_OPEN = false;
-ESDoc.PREVIEW_URI = vscode.Uri.parse("esdoc://samundrak/esdoc");
+ESDoc.PREVIEW_URI = vscode.Uri.parse('esdoc://samundrak/esdoc');
 module.exports = ESDoc;
