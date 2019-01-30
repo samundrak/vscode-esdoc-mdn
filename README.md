@@ -9,8 +9,8 @@ This extension lets you quickly bring up helpful MDN documentation in the editor
 ## Usage
 
 Load documentation of top level or global objects:
-  
- //mdn [api];
+
+//mdn [api];
 example: //mdn Array;
 
 Load documentation of a method or property:
@@ -36,4 +36,4 @@ Yes! A search won't happen without it.
 
 ## Suports
 
-`js` `vue` `jsx` `ts`
+`js`, `vue`,`jsx`, `ts`,`tsx`
