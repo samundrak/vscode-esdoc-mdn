@@ -8,7 +8,7 @@ class ESDoc {
     this.urlToDocs = urlToDocs;
     this.lastQuery = null;
     this.view.on('dispose', this.handleViewDispose.bind(this));
-    this.whiteListedFileExtensions = ['js', 'jsx', 'ts', 'vue'];
+    this.whiteListedFileExtensions = ['js', 'jsx', 'ts', 'tsx', 'vue'];
   }
   parseLine(line) {
     if (!line.match(ESDoc.TOKEN)) {
