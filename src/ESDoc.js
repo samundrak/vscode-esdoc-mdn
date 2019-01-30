@@ -1,6 +1,6 @@
 const vscode = require('vscode');
 const { window } = vscode;
-const { getUrlFromToken } = require('./helper');
+const { getUrlFromToken, getExtension } = require('./helper');
 
 class ESDoc {
   constructor(view, urlToDocs) {
@@ -8,11 +8,7 @@ class ESDoc {
     this.urlToDocs = urlToDocs;
     this.lastQuery = null;
     this.view.on('dispose', this.handleViewDispose.bind(this));
-    this.whiteListedLanguageIds = [
-      'javascriptreact',
-      'javascript',
-      'typescript',
-    ];
+    this.whiteListedFileExtensions = ['js', 'jsx', 'ts', 'vue'];
   }
   parseLine(line) {
     if (!line.match(ESDoc.TOKEN)) {
@@ -28,12 +24,14 @@ class ESDoc {
       return;
     }
     let doc = editor.document;
+    const fileExtension = getExtension(doc.fileName);
     if (
-      !this.whiteListedLanguageIds.includes(doc.languageId) &&
-      !doc.fileName.endsWith('.vue')
+      !this.whiteListedFileExtensions.includes(fileExtension) &&
+      doc.languageId !== 'javascript'
     ) {
       return;
     }
+
     if (!editor.selection.isEmpty) {
       return;
     }
