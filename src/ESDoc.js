@@ -8,6 +8,11 @@ class ESDoc {
     this.urlToDocs = urlToDocs;
     this.lastQuery = null;
     this.view.on('dispose', this.handleViewDispose.bind(this));
+    this.whiteListedLanguageIds = [
+      'javascriptreact',
+      'javascript',
+      'typescript',
+    ];
   }
   parseLine(line) {
     if (!line.match(ESDoc.TOKEN)) {
@@ -23,7 +28,10 @@ class ESDoc {
       return;
     }
     let doc = editor.document;
-    if (doc.languageId !== 'javascript') {
+    if (
+      !this.whiteListedLanguageIds.includes(doc.languageId) &&
+      !doc.fileName.endsWith('.vue')
+    ) {
       return;
     }
     if (!editor.selection.isEmpty) {
