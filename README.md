@@ -34,6 +34,6 @@ Yes! A search won't happen without it.
 //mdn array.splice;
 ```
 
-## Suports
+## Supports
 
 `js`, `vue`,`jsx`, `ts`,`tsx`
