@@ -1,79 +1,58 @@
 {
-  "javascript basics":
-    "/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+  "javascript basics": "/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
   "javascript first steps": "/en-US/docs/Learn/JavaScript/First_steps",
   "javascript building blocks": "/en-US/docs/Learn/JavaScript/Building_blocks",
   "introducing javascript objects": "/en-US/docs/Learn/JavaScript/Objects",
   "introduction": "/en-US/docs/Web/JavaScript/Guide/Introduction",
   "grammar and types": "/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types",
-  "control flow and error handling":
-    "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+  "control flow and error handling": "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
   "loops and iteration": "/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
   "functions": "/en-US/docs/Web/JavaScript/Guide/Functions",
-  "expressions and operators":
-    "/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators",
+  "expressions and operators": "/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators",
   "numbers and dates": "/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates",
   "text formatting": "/en-US/docs/Web/JavaScript/Guide/Text_formatting",
   "regular expressions": "/en-US/docs/Web/JavaScript/Guide/Regular_Expressions",
   "indexed collections": "/en-US/docs/Web/JavaScript/Guide/Indexed_collections",
   "keyed collections": "/en-US/docs/Web/JavaScript/Guide/Keyed_collections",
-  "working with objects":
-    "/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
-  "details of the object model":
-    "/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model",
-  "iterators and generators":
-    "/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators",
+  "working with objects": "/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+  "details of the object model": "/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model",
+  "iterators and generators": "/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators",
   "meta programming": "/en-US/docs/Web/JavaScript/Guide/Meta_programming",
   "client-side web apis": "/en-US/docs/Learn/JavaScript/Client-side_web_APIs",
-  "a re-introduction to javascript":
-    "/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+  "a re-introduction to javascript": "/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
   "javascript data structures": "/en-US/docs/Web/JavaScript/Data_structures",
-  "equality comparisons and sameness":
-    "/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness",
+  "equality comparisons and sameness": "/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness",
   "closures": "/en-US/docs/Web/JavaScript/Closures",
-  "inheritance and the prototype chain":
-    "/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
+  "inheritance and the prototype chain": "/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
   "strict mode": "/en-US/docs/Web/JavaScript/Reference/Strict_mode",
   "javascript typed arrays": "/en-US/docs/Web/JavaScript/Typed_arrays",
   "simd types": "/en-US/docs/Web/JavaScript/SIMD_types",
   "memory management": "/en-US/docs/Web/JavaScript/Memory_Management",
   "concurrency model and event loop": "/en-US/docs/Web/JavaScript/EventLoop",
   "array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-  "arraybuffer":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
-  "asyncfunction":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction",
+  "arraybuffer": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+  "asyncfunction": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction",
   "atomics": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics",
   "boolean": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
   "dataview": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
   "date": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
   "error": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
   "evalerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
-  "float32array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
-  "float64array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+  "float32array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+  "float64array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
   "function": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
   "generator": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
-  "generatorfunction":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+  "generatorfunction": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
   "infinity": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
-  "int16array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
-  "int32array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+  "int16array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+  "int32array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
   "int8array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
-  "internalerror":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+  "internalerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
   "intl": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl",
-  "intl.collator":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator",
-  "intl.datetimeformat":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
-  "intl.numberformat":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
-  "intl.pluralrules":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules",
+  "intl.collator": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator",
+  "intl.datetimeformat": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
+  "intl.numberformat": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
+  "intl.pluralrules": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules",
   "json": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
   "map": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
   "math": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math",
@@ -82,121 +61,76 @@
   "object": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
   "promise": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
   "proxy": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-  "rangeerror":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
-  "referenceerror":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+  "rangeerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+  "referenceerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
   "reflect": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
   "regexp": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
   "simd": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SIMD",
-  "simd.bool16x8":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool16x8",
-  "simd.bool32x4":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool32x4",
-  "simd.bool64x2":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool64x2",
-  "simd.bool8x16":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool8x16",
-  "simd.float32x4":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32x4",
-  "simd.float64x2":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64x2",
+  "simd.bool16x8": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool16x8",
+  "simd.bool32x4": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool32x4",
+  "simd.bool64x2": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool64x2",
+  "simd.bool8x16": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Bool8x16",
+  "simd.float32x4": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32x4",
+  "simd.float64x2": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64x2",
   "simd.int16x8": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16x8",
   "simd.int32x4": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32x4",
   "simd.int8x16": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8x16",
-  "simd.uint16x8":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16x8",
-  "simd.uint32x4":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32x4",
-  "simd.uint8x16":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8x16",
+  "simd.uint16x8": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16x8",
+  "simd.uint32x4": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32x4",
+  "simd.uint8x16": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8x16",
   "set": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-  "sharedarraybuffer":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
+  "sharedarraybuffer": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
   "string": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
   "symbol": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-  "syntaxerror":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+  "syntaxerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
   "typeerror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
-  "typedarray":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
+  "typedarray": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
   "urierror": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
-  "uint16array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
-  "uint32array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
-  "uint8array":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-  "uint8clampedarray":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+  "uint16array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+  "uint32array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+  "uint8array": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+  "uint8clampedarray": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
   "weakmap": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
   "weakset": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
-  "webassembly":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly",
-  "decodeuri()":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI",
-  "decodeuricomponent()":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent",
-  "encodeuri()":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI",
-  "encodeuricomponent()":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent",
+  "webassembly": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly",
+  "decodeuri()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI",
+  "decodeuricomponent()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent",
+  "encodeuri()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI",
+  "encodeuricomponent()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent",
   "escape()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape",
   "eval()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval",
   "isfinite()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite",
   "isnan()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN",
   "null": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
-  "parsefloat()":
-    "/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat",
+  "parsefloat()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat",
   "parseint()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt",
   "undefined": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
   "unescape()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/unescape",
   "uneval()": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval",
-  "arithmetic operators":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
-  "array comprehensions":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Array_comprehensions",
-  "assignment operators":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators",
-  "bitwise operators":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators",
-  "comma operator":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator",
-  "comparison operators":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators",
-  "conditional (ternary) operator":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
-  "destructuring assignment":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
-  "expression closures":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Expression_closures",
-  "generator comprehensions":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Generator_comprehensions",
-  "grouping operator":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
-  "legacy generator function expression":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Legacy_generator_function",
-  "logical operators":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators",
-  "object initializer":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer",
-  "operator precedence":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence",
-  "pipeline operator":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Pipeline_operator",
-  "property accessors":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors",
-  "spread syntax":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
-  "async function expression":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/async_function",
+  "arithmetic operators": "/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+  "array comprehensions": "/en-US/docs/Web/JavaScript/Reference/Operators/Array_comprehensions",
+  "assignment operators": "/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators",
+  "bitwise operators": "/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators",
+  "comma operator": "/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator",
+  "comparison operators": "/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators",
+  "conditional (ternary) operator": "/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
+  "destructuring assignment": "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+  "expression closures": "/en-US/docs/Web/JavaScript/Reference/Operators/Expression_closures",
+  "generator comprehensions": "/en-US/docs/Web/JavaScript/Reference/Operators/Generator_comprehensions",
+  "grouping operator": "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+  "legacy generator function expression": "/en-US/docs/Web/JavaScript/Reference/Operators/Legacy_generator_function",
+  "logical operators": "/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators",
+  "object initializer": "/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer",
+  "operator precedence": "/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence",
+  "pipeline operator": "/en-US/docs/Web/JavaScript/Reference/Operators/Pipeline_operator",
+  "property accessors": "/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors",
+  "spread syntax": "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
+  "async function expression": "/en-US/docs/Web/JavaScript/Reference/Operators/async_function",
   "await": "/en-US/docs/Web/JavaScript/Reference/Operators/await",
   "class expression": "/en-US/docs/Web/JavaScript/Reference/Operators/class",
   "delete operator": "/en-US/docs/Web/JavaScript/Reference/Operators/delete",
-  "function expression":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/function",
-  "function* expression":
-    "/en-US/docs/Web/JavaScript/Reference/Operators/function*",
+  "function expression": "/en-US/docs/Web/JavaScript/Reference/Operators/function",
+  "function* expression": "/en-US/docs/Web/JavaScript/Reference/Operators/function*",
   "in operator": "/en-US/docs/Web/JavaScript/Reference/Operators/in",
   "instanceof": "/en-US/docs/Web/JavaScript/Reference/Operators/instanceof",
   "new operator": "/en-US/docs/Web/JavaScript/Reference/Operators/new",
@@ -207,10 +141,8 @@
   "void operator": "/en-US/docs/Web/JavaScript/Reference/Operators/void",
   "yield": "/en-US/docs/Web/JavaScript/Reference/Operators/yield",
   "yield*": "/en-US/docs/Web/JavaScript/Reference/Operators/yield*",
-  "legacy generator function":
-    "/en-US/docs/Web/JavaScript/Reference/Statements/Legacy_generator_function",
-  "async function":
-    "/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+  "legacy generator function": "/en-US/docs/Web/JavaScript/Reference/Statements/Legacy_generator_function",
+  "async function": "/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
   "block": "/en-US/docs/Web/JavaScript/Reference/Statements/block",
   "break": "/en-US/docs/Web/JavaScript/Reference/Statements/break",
   "class": "/en-US/docs/Web/JavaScript/Reference/Statements/class",
@@ -222,12 +154,10 @@
   "empty": "/en-US/docs/Web/JavaScript/Reference/Statements/Empty",
   "export": "/en-US/docs/Web/JavaScript/Reference/Statements/export",
   "for": "/en-US/docs/Web/JavaScript/Reference/Statements/for",
-  "for each...in":
-    "/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in",
+  "for each...in": "/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in",
   "for...in": "/en-US/docs/Web/JavaScript/Reference/Statements/for...in",
   "for...of": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of",
-  "function declaration":
-    "/en-US/docs/Web/JavaScript/Reference/Statements/function",
+  "function declaration": "/en-US/docs/Web/JavaScript/Reference/Statements/function",
   "function*": "/en-US/docs/Web/JavaScript/Reference/Statements/function*",
   "if...else": "/en-US/docs/Web/JavaScript/Reference/Statements/if...else",
   "import": "/en-US/docs/Web/JavaScript/Reference/Statements/import",
@@ -240,185 +170,100 @@
   "var": "/en-US/docs/Web/JavaScript/Reference/Statements/var",
   "while": "/en-US/docs/Web/JavaScript/Reference/Statements/while",
   "with": "/en-US/docs/Web/JavaScript/Reference/Statements/with",
-  "arguments object":
-    "/en-US/docs/Web/JavaScript/Reference/Functions/arguments",
-  "arrow functions":
-    "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
-  "default parameters":
-    "/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters",
-  "method definitions":
-    "/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
-  "rest parameters":
-    "/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters",
+  "arguments object": "/en-US/docs/Web/JavaScript/Reference/Functions/arguments",
+  "arrow functions": "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+  "default parameters": "/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters",
+  "method definitions": "/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+  "rest parameters": "/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters",
   "getter": "/en-US/docs/Web/JavaScript/Reference/Functions/get",
   "setter": "/en-US/docs/Web/JavaScript/Reference/Functions/set",
   "constructor": "/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
   "extends": "/en-US/docs/Web/JavaScript/Reference/Classes/extends",
   "static": "/en-US/docs/Web/JavaScript/Reference/Classes/static",
-  "error: permission denied to access property \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied",
-  "internalerror: too much recursion":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion",
-  "rangeerror: argument is not a valid code point":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_codepoint",
-  "rangeerror: invalid array length":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length",
-  "rangeerror: invalid date":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date",
-  "rangeerror: precision is out of range":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Precision_range",
-  "rangeerror: radix must be an integer":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_radix",
-  "rangeerror: repeat count must be less than infinity":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large",
-  "rangeerror: repeat count must be non-negative":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count",
-  "referenceerror: \"x\" is not defined":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined",
-  "referenceerror: assignment to undeclared variable \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Undeclared_var",
-  "referenceerror: can't access lexical declaration`x' before initialization":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init",
-  "referenceerror: deprecated caller or arguments usage":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage",
-  "referenceerror: invalid assignment left-hand side":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
-  "referenceerror: reference to undefined property \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Undefined_prop",
-  "syntaxerror: \"0\"-prefixed octal literals and octal escape seq. are deprecated":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal",
-  "syntaxerror: \"use strict\" not allowed in function with non-simple parameters":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params",
-  "syntaxerror: \"x\" is a reserved identifier":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
-  "syntaxerror: json.parse: bad parsing":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse",
-  "syntaxerror: malformed formal parameter":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_formal_parameter",
-  "syntaxerror: unexpected token":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token",
-  "syntaxerror: using //@ to indicate sourceurl pragmas is deprecated. use //# instead":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
-  "syntaxerror: a declaration in the head of a for-of loop can't have an initializer":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer",
-  "syntaxerror: applying the 'delete' operator to an unqualified name is deprecated":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode",
-  "syntaxerror: for-in loop head declarations may not have initializers":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer",
-  "syntaxerror: function statement requires a name":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement",
-  "syntaxerror: identifier starts immediately after numeric literal":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number",
-  "syntaxerror: illegal character":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character",
-  "syntaxerror: invalid regular expression flag \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag",
-  "syntaxerror: missing ) after argument list":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list",
-  "syntaxerror: missing ) after condition":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition",
-  "syntaxerror: missing : after property id":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id",
-  "syntaxerror: missing ; before statement":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_semicolon_before_statement",
-  "syntaxerror: missing = in const declaration":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const",
-  "syntaxerror: missing ] after element list":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list",
-  "syntaxerror: missing formal parameter":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter",
-  "syntaxerror: missing name after . operator":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator",
-  "syntaxerror: missing variable name":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name",
-  "syntaxerror: missing } after function body":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body",
-  "syntaxerror: missing } after property list":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list",
-  "syntaxerror: redeclaration of formal parameter \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter",
-  "syntaxerror: return not in function":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return_or_yield",
-  "syntaxerror: test for equality (==) mistyped as assignment (=)?":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Equal_as_assign",
-  "syntaxerror: unterminated string literal":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Unterminated_string_literal",
-  "typeerror: \"x\" has no properties":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/No_properties",
-  "typeerror: \"x\" is (not) \"y\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_type",
-  "typeerror: \"x\" is not a constructor":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_constructor",
-  "typeerror: \"x\" is not a function":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_function",
-  "typeerror: \"x\" is not a non-null object":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/No_non-null_object",
-  "typeerror: \"x\" is read-only":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Read-only",
-  "typeerror: more arguments needed":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/More_arguments_needed",
-  "typeerror: can't access dead object":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Dead_object",
-  "typeerror: can't define property \"x\": \"obj\" is not extensible":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible",
-  "typeerror: can't delete non-configurable array element":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element",
-  "typeerror: can't redefine non-configurable property \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property",
-  "typeerror: cannot use 'in' operator to search for 'x' in 'y'":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object",
-  "typeerror: cyclic object value":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value",
-  "typeerror: invalid array.prototype.sort argument":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Array_sort_argument",
-  "typeerror: invalid arguments":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Typed_array_invalid_arguments",
-  "typeerror: invalid assignment to const \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment",
-  "typeerror: property \"x\" is non-configurable and can't be deleted":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_delete",
-  "typeerror: setting getter-only property \"x\"":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only",
-  "typeerror: variable \"x\" redeclares argument":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Var_hides_argument",
-  "urierror: malformed uri sequence":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_URI",
-  "warning: -file- is being assigned a //# sourcemappingurl, but already has one":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma",
-  "warning: 08/09 is not a legal ecma-262 octal constant":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_octal",
-  "warning: date.prototype.tolocaleformat is deprecated":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat",
-  "warning: javascript 1.6's for-each-in loops are deprecated":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated",
-  "warning: string.x is deprecated; use string.prototype.x instead":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics",
-  "warning: expression closures are deprecated":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures",
-  "warning: unreachable code after return statement":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Stmt_after_return",
-  "x.prototype.y called on incompatible type":
-    "/en-US/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type",
-  "javascript technologies overview":
-    "/en-US/docs/Web/JavaScript/JavaScript_technologies_overview",
+  "error: permission denied to access property \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied",
+  "internalerror: too much recursion": "/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion",
+  "rangeerror: argument is not a valid code point": "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_codepoint",
+  "rangeerror: invalid array length": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length",
+  "rangeerror: invalid date": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date",
+  "rangeerror: precision is out of range": "/en-US/docs/Web/JavaScript/Reference/Errors/Precision_range",
+  "rangeerror: radix must be an integer": "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_radix",
+  "rangeerror: repeat count must be less than infinity": "/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large",
+  "rangeerror: repeat count must be non-negative": "/en-US/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count",
+  "referenceerror: \"x\" is not defined": "/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined",
+  "referenceerror: assignment to undeclared variable \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Undeclared_var",
+  "referenceerror: can't access lexical declaration`x' before initialization": "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init",
+  "referenceerror: deprecated caller or arguments usage": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage",
+  "referenceerror: invalid assignment left-hand side": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
+  "referenceerror: reference to undefined property \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Undefined_prop",
+  "reduce": "/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
+  "syntaxerror: \"0\"-prefixed octal literals and octal escape seq. are deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal",
+  "syntaxerror: \"use strict\" not allowed in function with non-simple parameters": "/en-US/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params",
+  "syntaxerror: \"x\" is a reserved identifier": "/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
+  "syntaxerror: json.parse: bad parsing": "/en-US/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse",
+  "syntaxerror: malformed formal parameter": "/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_formal_parameter",
+  "syntaxerror: unexpected token": "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token",
+  "syntaxerror: using //@ to indicate sourceurl pragmas is deprecated. use //# instead": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
+  "syntaxerror: a declaration in the head of a for-of loop can't have an initializer": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer",
+  "syntaxerror: applying the 'delete' operator to an unqualified name is deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode",
+  "syntaxerror: for-in loop head declarations may not have initializers": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer",
+  "syntaxerror: function statement requires a name": "/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement",
+  "syntaxerror: identifier starts immediately after numeric literal": "/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number",
+  "syntaxerror: illegal character": "/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character",
+  "syntaxerror: invalid regular expression flag \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag",
+  "syntaxerror: missing ) after argument list": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list",
+  "syntaxerror: missing ) after condition": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition",
+  "syntaxerror: missing : after property id": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id",
+  "syntaxerror: missing ; before statement": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_semicolon_before_statement",
+  "syntaxerror: missing = in const declaration": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const",
+  "syntaxerror: missing ] after element list": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list",
+  "syntaxerror: missing formal parameter": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter",
+  "syntaxerror: missing name after . operator": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator",
+  "syntaxerror: missing variable name": "/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name",
+  "syntaxerror: missing } after function body": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body",
+  "syntaxerror: missing } after property list": "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list",
+  "syntaxerror: redeclaration of formal parameter \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter",
+  "syntaxerror: return not in function": "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return_or_yield",
+  "syntaxerror: test for equality (==) mistyped as assignment (=)?": "/en-US/docs/Web/JavaScript/Reference/Errors/Equal_as_assign",
+  "syntaxerror: unterminated string literal": "/en-US/docs/Web/JavaScript/Reference/Errors/Unterminated_string_literal",
+  "typeerror: \"x\" has no properties": "/en-US/docs/Web/JavaScript/Reference/Errors/No_properties",
+  "typeerror: \"x\" is (not) \"y\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_type",
+  "typeerror: \"x\" is not a constructor": "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_constructor",
+  "typeerror: \"x\" is not a function": "/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_function",
+  "typeerror: \"x\" is not a non-null object": "/en-US/docs/Web/JavaScript/Reference/Errors/No_non-null_object",
+  "typeerror: \"x\" is read-only": "/en-US/docs/Web/JavaScript/Reference/Errors/Read-only",
+  "typeerror: more arguments needed": "/en-US/docs/Web/JavaScript/Reference/Errors/More_arguments_needed",
+  "typeerror: can't access dead object": "/en-US/docs/Web/JavaScript/Reference/Errors/Dead_object",
+  "typeerror: can't define property \"x\": \"obj\" is not extensible": "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible",
+  "typeerror: can't delete non-configurable array element": "/en-US/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element",
+  "typeerror: can't redefine non-configurable property \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property",
+  "typeerror: cannot use 'in' operator to search for 'x' in 'y'": "/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object",
+  "typeerror: cyclic object value": "/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value",
+  "typeerror: invalid array.prototype.sort argument": "/en-US/docs/Web/JavaScript/Reference/Errors/Array_sort_argument",
+  "typeerror: invalid arguments": "/en-US/docs/Web/JavaScript/Reference/Errors/Typed_array_invalid_arguments",
+  "typeerror: invalid assignment to const \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment",
+  "typeerror: property \"x\" is non-configurable and can't be deleted": "/en-US/docs/Web/JavaScript/Reference/Errors/Cant_delete",
+  "typeerror: setting getter-only property \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only",
+  "typeerror: variable \"x\" redeclares argument": "/en-US/docs/Web/JavaScript/Reference/Errors/Var_hides_argument",
+  "urierror: malformed uri sequence": "/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_URI",
+  "warning: -file- is being assigned a //# sourcemappingurl, but already has one": "/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma",
+  "warning: 08/09 is not a legal ecma-262 octal constant": "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_octal",
+  "warning: date.prototype.tolocaleformat is deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat",
+  "warning: javascript 1.6's for-each-in loops are deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated",
+  "warning: string.x is deprecated; use string.prototype.x instead": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics",
+  "warning: expression closures are deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures",
+  "warning: unreachable code after return statement": "/en-US/docs/Web/JavaScript/Reference/Errors/Stmt_after_return",
+  "x.prototype.y called on incompatible type": "/en-US/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type",
+  "javascript technologies overview": "/en-US/docs/Web/JavaScript/JavaScript_technologies_overview",
   "lexical grammar": "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
-  "enumerability and ownership of properties":
-    "/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties",
-  "iteration protocols":
-    "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols",
-  "transitioning to strict mode":
-    "/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode",
+  "enumerability and ownership of properties": "/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties",
+  "iteration protocols": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols",
+  "transitioning to strict mode": "/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode",
   "template literals": "/en-US/docs/Web/JavaScript/Reference/Template_literals",
-  "deprecated features":
-    "/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features",
-  "ecmascript 2015 support in mozilla":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla",
-  "ecmascript 5 support in mozilla":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla",
-  "ecmascript next support in mozilla":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla",
-  "firefox javascript changelog":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog",
+  "deprecated features": "/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features",
+  "ecmascript 2015 support in mozilla": "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla",
+  "ecmascript 5 support in mozilla": "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla",
+  "ecmascript next support in mozilla": "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla",
+  "firefox javascript changelog": "/en-US/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog",
   "new in javascript 1.1": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.1",
   "new in javascript 1.2": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.2",
   "new in javascript 1.3": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.3",
@@ -427,10 +272,8 @@
   "new in javascript 1.6": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6",
   "new in javascript 1.7": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.7",
   "new in javascript 1.8": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8",
-  "new in javascript 1.8.1":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8.1",
-  "new in javascript 1.8.5":
-    "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8.5",
+  "new in javascript 1.8.1": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8.1",
+  "new in javascript 1.8.5": "/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8.5",
   "all pages index": "/en-US/docs/Web/JavaScript/Index",
   "methods index": "/en-US/docs/Web/JavaScript/Reference/Methods_Index",
   "properties index": "/en-US/docs/Web/JavaScript/Reference/Properties_Index",
@@ -571,8 +414,7 @@
   "htmltablecaptionelement": "/en-US/docs/Web/API/HTMLTableCaptionElement",
   "htmltablecellelement": "/en-US/docs/Web/API/HTMLTableCellElement",
   "htmltabledatacellelement": "/en-US/docs/Web/API/HTMLTableDataCellElement",
-  "htmltableheadercellelement":
-    "/en-US/docs/Web/API/HTMLTableHeaderCellElement",
+  "htmltableheadercellelement": "/en-US/docs/Web/API/HTMLTableHeaderCellElement",
   "htmltablecolelement": "/en-US/docs/Web/API/HTMLTableColElement",
   "htmltablerowelement": "/en-US/docs/Web/API/HTMLTableRowElement",
   "htmltablesectionelement": "/en-US/docs/Web/API/HTMLTableSectionElement",
@@ -591,8 +433,7 @@
   "canvaspixelarray": "/en-US/docs/Web/API/CanvasPixelArray",
   "notifyaudioavailableevent": "/en-US/docs/Web/API/NotifyAudioAvailableEvent",
   "htmlallcollection": "/en-US/docs/Web/API/HTMLAllCollection",
-  "htmlformcontrolscollection":
-    "/en-US/docs/Web/API/HTMLFormControlsCollection",
+  "htmlformcontrolscollection": "/en-US/docs/Web/API/HTMLFormControlsCollection",
   "htmloptionscollection": "/en-US/docs/Web/API/HTMLOptionsCollection",
   "htmlpropertiescollection": "/en-US/docs/Web/API/HTMLPropertiesCollection",
   "domstringmap": "/en-US/docs/Web/API/DOMStringMap",
@@ -608,13 +449,11 @@
   "svganimateelement": "/en-US/docs/Web/API/SVGAnimateElement",
   "svganimatecolorelement": "/en-US/docs/Web/API/SVGAnimateColorElement",
   "svganimatemotionelement": "/en-US/docs/Web/API/SVGAnimateMotionElement",
-  "svganimatetransformelement":
-    "/en-US/docs/Web/API/SVGAnimateTransformElement",
+  "svganimatetransformelement": "/en-US/docs/Web/API/SVGAnimateTransformElement",
   "svgcircleelement": "/en-US/docs/Web/API/SVGCircleElement",
   "svgclippathelement": "/en-US/docs/Web/API/SVGClipPathElement",
   "svgcolorprofileelement": "/en-US/docs/Web/API/SVGColorProfileElement",
-  "svgcomponenttransferfunctionelement":
-    "/en-US/docs/Web/API/SVGComponentTransferFunctionElement",
+  "svgcomponenttransferfunctionelement": "/en-US/docs/Web/API/SVGComponentTransferFunctionElement",
   "svgcursorelement": "/en-US/docs/Web/API/SVGCursorElement",
   "svgdefselement": "/en-US/docs/Web/API/SVGDefsElement",
   "svgdescelement": "/en-US/docs/Web/API/SVGDescElement",
@@ -622,15 +461,11 @@
   "svgellipseelement": "/en-US/docs/Web/API/SVGEllipseElement",
   "svgfeblendelement": "/en-US/docs/Web/API/SVGFEBlendElement",
   "svgfecolormatrixelement": "/en-US/docs/Web/API/SVGFEColorMatrixElement",
-  "svgfecomponenttransferelement":
-    "/en-US/docs/Web/API/SVGFEComponentTransferElement",
+  "svgfecomponenttransferelement": "/en-US/docs/Web/API/SVGFEComponentTransferElement",
   "svgfecompositeelement": "/en-US/docs/Web/API/SVGFECompositeElement",
-  "svgfeconvolvematrixelement":
-    "/en-US/docs/Web/API/SVGFEConvolveMatrixElement",
-  "svgfediffuselightingelement":
-    "/en-US/docs/Web/API/SVGFEDiffuseLightingElement",
-  "svgfedisplacementmapelement":
-    "/en-US/docs/Web/API/SVGFEDisplacementMapElement",
+  "svgfeconvolvematrixelement": "/en-US/docs/Web/API/SVGFEConvolveMatrixElement",
+  "svgfediffuselightingelement": "/en-US/docs/Web/API/SVGFEDiffuseLightingElement",
+  "svgfedisplacementmapelement": "/en-US/docs/Web/API/SVGFEDisplacementMapElement",
   "svgfedistantlightelement": "/en-US/docs/Web/API/SVGFEDistantLightElement",
   "svgfedropshadowelement": "/en-US/docs/Web/API/SVGFEDropShadowElement",
   "svgfefloodelement": "/en-US/docs/Web/API/SVGFEFloodElement",
@@ -645,14 +480,12 @@
   "svgfemorphologyelement": "/en-US/docs/Web/API/SVGFEMorphologyElement",
   "svgfeoffsetelement": "/en-US/docs/Web/API/SVGFEOffsetElement",
   "svgfepointlightelement": "/en-US/docs/Web/API/SVGFEPointLightElement",
-  "svgfespecularlightingelement":
-    "/en-US/docs/Web/API/SVGFESpecularLightingElement",
+  "svgfespecularlightingelement": "/en-US/docs/Web/API/SVGFESpecularLightingElement",
   "svgfespotlightelement": "/en-US/docs/Web/API/SVGFESpotLightElement",
   "svgfetileelement": "/en-US/docs/Web/API/SVGFETileElement",
   "svgfeturbulenceelement": "/en-US/docs/Web/API/SVGFETurbulenceElement",
   "svgfilterelement": "/en-US/docs/Web/API/SVGFilterElement",
-  "svgfilterprimitivestandardattributes":
-    "/en-US/docs/Web/API/SVGFilterPrimitiveStandardAttributes",
+  "svgfilterprimitivestandardattributes": "/en-US/docs/Web/API/SVGFilterPrimitiveStandardAttributes",
   "svgfontelement": "/en-US/docs/Web/API/SVGFontElement",
   "svgfontfaceelement": "/en-US/docs/Web/API/SVGFontFaceElement",
   "svgfontfaceformatelement": "/en-US/docs/Web/API/SVGFontFaceFormatElement",
@@ -726,28 +559,18 @@
   "svgpathseglinetorel": "/en-US/docs/Web/API/SVGPathSegLinetoRel",
   "svgpathsegcurvetocubicabs": "/en-US/docs/Web/API/SVGPathSegCurvetoCubicAbs",
   "svgpathsegcurvetocubicrel": "/en-US/docs/Web/API/SVGPathSegCurvetoCubicRel",
-  "svgpathsegcurvetoquadraticabs":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticAbs",
-  "svgpathsegcurvetoquadraticrel":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticRel",
+  "svgpathsegcurvetoquadraticabs": "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticAbs",
+  "svgpathsegcurvetoquadraticrel": "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticRel",
   "svgpathsegarcabs": "/en-US/docs/Web/API/SVGPathSegArcAbs",
   "svgpathsegarcrel": "/en-US/docs/Web/API/SVGPathSegArcRel",
-  "svgpathseglinetohorizontalabs":
-    "/en-US/docs/Web/API/SVGPathSegLinetoHorizontalAbs",
-  "svgpathseglinetohorizontalrel":
-    "/en-US/docs/Web/API/SVGPathSegLinetoHorizontalRel",
-  "svgpathseglinetoverticalabs":
-    "/en-US/docs/Web/API/SVGPathSegLinetoVerticalAbs",
-  "svgpathseglinetoverticalrel":
-    "/en-US/docs/Web/API/SVGPathSegLinetoVerticalRel",
-  "svgpathsegcurvetocubicsmoothabs":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoCubicSmoothAbs",
-  "svgpathsegcurvetocubicsmoothrel":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoCubicSmoothRel",
-  "svgpathsegcurvetoquadraticsmoothabs":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticSmoothAbs",
-  "svgpathsegcurvetoquadraticsmoothrel":
-    "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticSmoothRel",
+  "svgpathseglinetohorizontalabs": "/en-US/docs/Web/API/SVGPathSegLinetoHorizontalAbs",
+  "svgpathseglinetohorizontalrel": "/en-US/docs/Web/API/SVGPathSegLinetoHorizontalRel",
+  "svgpathseglinetoverticalabs": "/en-US/docs/Web/API/SVGPathSegLinetoVerticalAbs",
+  "svgpathseglinetoverticalrel": "/en-US/docs/Web/API/SVGPathSegLinetoVerticalRel",
+  "svgpathsegcurvetocubicsmoothabs": "/en-US/docs/Web/API/SVGPathSegCurvetoCubicSmoothAbs",
+  "svgpathsegcurvetocubicsmoothrel": "/en-US/docs/Web/API/SVGPathSegCurvetoCubicSmoothRel",
+  "svgpathsegcurvetoquadraticsmoothabs": "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticSmoothAbs",
+  "svgpathsegcurvetoquadraticsmoothrel": "/en-US/docs/Web/API/SVGPathSegCurvetoQuadraticSmoothRel",
   "svgpathseglist": "/en-US/docs/Web/API/SVGPathSegList",
   "svgpoint": "/en-US/docs/Web/API/SVGPoint",
   "svgpointlist": "/en-US/docs/Web/API/SVGPointList",
@@ -766,8 +589,7 @@
   "svganimatednumberlist": "/en-US/docs/Web/API/SVGAnimatedNumberList",
   "svganimatedpathdata": "/en-US/docs/Web/API/SVGAnimatedPathData",
   "svganimatedpoints": "/en-US/docs/Web/API/SVGAnimatedPoints",
-  "svganimatedpreserveaspectratio":
-    "/en-US/docs/Web/API/SVGAnimatedPreserveAspectRatio",
+  "svganimatedpreserveaspectratio": "/en-US/docs/Web/API/SVGAnimatedPreserveAspectRatio",
   "svganimatedrect": "/en-US/docs/Web/API/SVGAnimatedRect",
   "svganimatedstring": "/en-US/docs/Web/API/SVGAnimatedString",
   "svganimatedtransformlist": "/en-US/docs/Web/API/SVGAnimatedTransformList",
@@ -779,8 +601,7 @@
   "svgcssrule": "/en-US/docs/Web/API/SVGCSSRule",
   "svgdocument": "/en-US/docs/Web/API/SVGDocument",
   "svgexception": "/en-US/docs/Web/API/SVGException",
-  "svgexternalresourcesrequired":
-    "/en-US/docs/Web/API/SVGExternalResourcesRequired",
+  "svgexternalresourcesrequired": "/en-US/docs/Web/API/SVGExternalResourcesRequired",
   "svgfittoviewbox": "/en-US/docs/Web/API/SVGFitToViewBox",
   "svglangspace": "/en-US/docs/Web/API/SVGLangSpace",
   "svglocatable": "/en-US/docs/Web/API/SVGLocatable",

@@ -1,51 +1,82 @@
 {
-  "name": "esdoc-mdn",
-  "displayName": "ESDoc MDN",
-  "description": "If you are coding and in middle you forget syntax or description about any javascript api then just write //mdn [object].[method] .",
-  "version": "0.8.0",
-  "publisher": "samundrak",
-  "engines": {
-    "vscode": "^1.23.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onLanguage:javascript",
-    "onLanguage:javascriptreact",
-    "onLanguage:typescriptreact",
-    "onLanguage:typescript",
-    "onLanguage:html"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "esdocMdn.start",
-        "title": "ESDoc MDN",
-        "category": "documentation"
-      }
-    ]
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "typescript": "^2.6.1",
-    "vscode": "^1.1.6",
-    "eslint": "^4.11.0",
-    "@types/node": "^7.0.43",
-    "@types/mocha": "^2.2.42"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "get-port": "^3.2.0",
-    "jsdom": "^11.6.2",
-    "socket.io": "^2.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/samundrak/vscode-esdoc-mdn.git"
-  }
+	"name": "esdoc-mdn",
+	"displayName": "ESDoc MDN",
+	"description": "If you are coding and in middle you forget syntax or description about any javascript api then just write //mdn [object].[method] .",
+	"version": "0.8.0",
+	"publisher": "samundrak",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:typescriptreact",
+		"onLanguage:typescript",
+		"onLanguage:html"
+	],
+	"main": "./extension",
+	"contributes": {
+		"configuration": {
+			"properties": {
+				"esdoc.language": {
+					"type": "string",
+					"enum": [
+						"ar",
+						"bg",
+						"de",
+						"en-US",
+						"es",
+						"fr",
+						"he",
+						"it",
+						"ja",
+						"ko",
+						"nl",
+						"pl",
+						"pt-BR",
+						"ru",
+						"uk",
+						"vi",
+						"zh-CN",
+						"zh-TW"
+					],
+					"default": "en-us"
+				}
+			}
+		},
+		"commands": [{
+			"command": "esdocMdn.start",
+			"title": "ESDoc MDN",
+			"category": "documentation"
+		}]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"eslint": "^4.11.0",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"get-port": "^3.2.0",
+		"jsdom": "^11.6.2",
+		"socket.io": "^2.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/samundrak/vscode-esdoc-mdn.git"
+	},
+	"__metadata": {
+		"id": "f1975fcf-1c86-4a5a-9b49-70125253e5a4",
+		"publisherDisplayName": "Samundra Khatri",
+		"publisherId": "41431393-35be-4772-8086-f99f1cb1f1e5"
+	}
 }
