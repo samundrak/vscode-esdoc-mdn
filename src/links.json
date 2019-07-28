@@ -195,7 +195,7 @@
   "referenceerror: deprecated caller or arguments usage": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage",
   "referenceerror: invalid assignment left-hand side": "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
   "referenceerror: reference to undefined property \"x\"": "/en-US/docs/Web/JavaScript/Reference/Errors/Undefined_prop",
-  "reduce": "/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
+  "reduce": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
   "syntaxerror: \"0\"-prefixed octal literals and octal escape seq. are deprecated": "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal",
   "syntaxerror: \"use strict\" not allowed in function with non-simple parameters": "/en-US/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params",
   "syntaxerror: \"x\" is a reserved identifier": "/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
