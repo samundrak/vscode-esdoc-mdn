@@ -15,7 +15,7 @@ class DocumentationProvider {
     const jsdom = await this.parseDocumentation(rawHtml.data);
     return this.fullHtml({
       head: this.createStyleSheet(jsdom.window.document),
-      body: jsdom.window.document.getElementById('wiki-content').innerHTML,
+      body: jsdom.window.document.getElementById('content').innerHTML,
     });
   }
 
