@@ -39,7 +39,7 @@
     "@types/mocha": "^2.2.42"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "get-port": "^3.2.0",
     "jsdom": "^11.6.2",
     "socket.io": "^2.0.4"
