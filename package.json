@@ -42,7 +42,7 @@
     "axios": "^0.18.0",
     "get-port": "^3.2.0",
     "jsdom": "^11.6.2",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "repository": {
     "type": "git",
